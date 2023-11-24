@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
 export const DashboardTable = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage] = useState(5);
 
-    const data = Array.from({ length: 101 }, (_, index) => ({
+    const data = Array.from({length: 101}, (_, index) => ({
         name: "user" + index,
         role: "Admin",
         email: "user" + index + "@example.com"

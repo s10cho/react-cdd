@@ -10,6 +10,6 @@ interface Props {
     readonly onChange: (text: string) => void;
 }
 
-export const InputText = ({ value, onChange }: Props) => {
-    return <TextInput value={value} onChange={(event) => onChange(event.target.value)} />;
+export const InputText = ({value, onChange}: Props) => {
+    return <TextInput value={value} onChange={(event) => onChange(event.target.value)}/>;
 };

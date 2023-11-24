@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/react';
-import { BlogItem } from '.';
+import {Meta, StoryObj} from '@storybook/react';
+import {BlogItem} from '.';
 
 const meta: Meta<typeof BlogItem> = {
     title: 'Organisms/BlogItem',

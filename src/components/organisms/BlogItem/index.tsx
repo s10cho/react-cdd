@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { BlogTitle } from '../../atoms/BlogTitle';
-import { BlogBody } from '../../atoms/BlogBody';
+import {BlogTitle} from '../../atoms/BlogTitle';
+import {BlogBody} from '../../atoms/BlogBody';
 
 const Container = styled.div`
   background-color: #ffffff;
@@ -18,11 +18,11 @@ interface Props {
     readonly body: string;
 }
 
-export const BlogItem = ({ title, body }: Props) => {
+export const BlogItem = ({title, body}: Props) => {
     return (
         <Container>
-            <BlogTitle title={title} />
-            <BlogBody body={body} />
+            <BlogTitle title={title}/>
+            <BlogBody body={body}/>
         </Container>
     );
 };

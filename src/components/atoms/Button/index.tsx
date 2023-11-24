@@ -24,7 +24,7 @@ interface Props {
     readonly onClick?: () => void;
 }
 
-export const Button = ({ label, color = '#ff5722', onClick }: Props) => {
+export const Button = ({label, color = '#ff5722', onClick}: Props) => {
     return (
         <Container color={color} onClick={onClick}>
             {label}

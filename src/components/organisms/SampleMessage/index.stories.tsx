@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/react';
-import { SampleComponent } from '.';
+import {Meta, StoryObj} from '@storybook/react';
+import {SampleComponent} from '.';
 
 const meta: Meta<typeof SampleComponent> = {
     title: 'Organisms/SampleComponent',

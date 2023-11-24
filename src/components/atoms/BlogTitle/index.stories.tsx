@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/react';
-import { BlogTitle } from '.';
+import {Meta, StoryObj} from '@storybook/react';
+import {BlogTitle} from '.';
 
 const meta: Meta<typeof BlogTitle> = {
     title: 'Atoms/BlogTitle',

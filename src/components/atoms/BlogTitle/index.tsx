@@ -9,6 +9,6 @@ interface Props {
     readonly title: string;
 }
 
-export const BlogTitle = ({ title }: Props) => {
+export const BlogTitle = ({title}: Props) => {
     return <Title>{title}</Title>;
 };

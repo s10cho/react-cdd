@@ -10,6 +10,6 @@ interface Props {
     readonly body: string;
 }
 
-export const BlogBody = ({ body }: Props) => {
+export const BlogBody = ({body}: Props) => {
     return <Title>{body}</Title>;
 };

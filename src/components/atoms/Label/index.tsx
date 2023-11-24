@@ -8,6 +8,6 @@ interface Props {
     readonly text: string;
 }
 
-export const Label = ({ text }: Props) => {
+export const Label = ({text}: Props) => {
     return <Container>{text}</Container>;
 };
